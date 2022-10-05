@@ -1,0 +1,39 @@
+.number {
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.pageSelected {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.pageNumber {
+  padding: 4px 13px;
+  margin: 0 5px;
+  background-color: orange;
+  border-radius: 50%;
+
+}
+.pageNumber:hover {
+  background-color: chocolate;
+}
+
+.pageNumber.selectedPage {
+  font-weight: bold;
+
+}
+.buttonPaginator {
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.buttonPaginator:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
